@@ -8,14 +8,14 @@ Docker image for SOCKS proxy client (inspired by [Soxy](https://github.com/PHLAK
 
 ### Running the container
 
-First create a data-only container containing your SSH key pair:
+First generate an SSH key pair and store it in a named data volume:
 
-    docker run --entrypoint /usr/bin/keygen --name soxy-keys phlak/soxy:local docker-soxy
+    docker run --rm -v soxy-key:/root/.ssh --entrypoint keygen phlak/soxy docker-soxy
 
 This will generate a new SSH key pair and echo back the public key.  You must then manually add this
 key to your server's `known_hosts` file.  Once complete you can run the SOCKS proxy client with:
 
-    docker run -d -p 1080:1080 --volumes-from socks-keys --name socks-client phlak/soxy user@hostname [-p 1234]
+    docker run -d -p 1080:1080 -v soxy-key:/root/.ssh --name soxy-client phlak/soxy user@hostname [-p 1234]
 
 **NOTE:** Replace `user@hostname [-p 1234]` with your server's user and hostname. You may also set
 the port number with the `-p` flag if your server isn't running on the default port (22).
