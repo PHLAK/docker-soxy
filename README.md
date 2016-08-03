@@ -3,7 +3,7 @@ docker-soxy
 
 Docker image for SOCKS proxy client (inspired by [Soxy](https://github.com/PHLAK/Soxy)).
 
-[![](https://badge.imagelayers.io/phlak/soxy:latest.svg)](https://imagelayers.io/?images=phlak/soxy:latest 'Get your own badge on imagelayers.io')
+[![](https://images.microbadger.com/badges/image/phlak/soxy.svg)](http://microbadger.com/#/images/phlak/soxy "Get your own image badge on microbadger.com")
 
 
 ### Running the container
