@@ -1,5 +1,5 @@
 FROM alpine:3.10
-MAINTAINER Chris Kankiewicz <Chris@ChrisKankiewicz.com>
+LABEL maintainer="Chris Kankiewicz <Chris@ChrisKankiewicz.com>"
 
 # Create non-root user
 RUN adduser -Ds /sbin/nologin soxy
