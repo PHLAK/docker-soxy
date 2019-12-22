@@ -1,9 +1,20 @@
 docker-soxy
 ===========
 
-Docker image for SOCKS proxy client (inspired by [Soxy](https://github.com/PHLAK/Soxy)).
+<p align="center">
+  <a href="http://microbadger.com/#/images/phlak/soxy" alt="Microbadger"><img src="https://images.microbadger.com/badges/image/phlak/soxy.svg"></a>
+  <a href="https://ln.phlak.net/join-slack"><img src="https://img.shields.io/badge/Join_our-Slack-611f69.svg" alt="Join our"></a>
+  <a href="https://github.com/users/PHLAK/sponsorship"><img src="https://img.shields.io/badge/Become_a-Sponsor-cc4195.svg" alt="Become a Sponsor"></a>
+  <a href="https://patreon.com/PHLAK"><img src="https://img.shields.io/badge/Become_a-Patron-e7513b.svg" alt="Become a Patron"></a>
+  <a href="https://paypal.me/ChrisKankiewicz"><img src="https://img.shields.io/badge/Make_a-Donation-006bb6.svg" alt="One-time Donation"></a>
+</p>
 
-[![](https://images.microbadger.com/badges/image/phlak/soxy.svg)](http://microbadger.com/#/images/phlak/soxy "Get your own image badge on microbadger.com")
+<p align="center">
+    Docker image for SOCKS proxy client (inspired by
+    <a href="https://github.com/PHLAK/Soxy">Soxy</a>).
+</p>
+
+---
 
 #### Like this project?
 
@@ -36,7 +47,7 @@ Once the Soxy client is up and running you can connect to it via `localhost:1080
 Troubleshooting
 ---------------
 
-For general help and support join our [Spectrum community](https://spectrum.chat/phlaknet).
+For general help and support join our [Slack Workspace](https://ln.phlak.net/join-slack).
 
 Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/docker-soxy/issues).
 
