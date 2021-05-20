@@ -9,7 +9,7 @@ docker-soxy
     <a href="https://hub.docker.com/repository/docker/phlak/soxy/tags"><img alt="Docker Image Version" src="https://img.shields.io/docker/v/phlak/soxy?style=flat-square&sort=semver"></a>
     <a href="https://hub.docker.com/repository/docker/phlak/soxy"><img alt="Docker Pulls" src="https://img.shields.io/docker/pulls/phlak/soxy?style=flat-square"></a>
     <a href="https://github.com/PHLAK/docker-soxy/blob/master/LICENSE"><img src="https://img.shields.io/github/license/PHLAK/docker-soxy?style=flat-square" alt="License"></a>
-    <a href="https://hub.docker.com/repository/docker/phlak/soxy/builds"><img alt="Docker Build Status" src="https://img.shields.io/docker/build/phlak/soxy?style=flat-square"></a>
+    <a href="https://hub.docker.com/repository/docker/phlak/soxy/builds"><img alt="Docker Cloud Build Status" src="https://img.shields.io/docker/cloud/build/phlak/soxy?style=flat-square"></a>
 </p>
 
 <p align="center">
@@ -44,7 +44,7 @@ Once the Soxy client is up and running you can connect to it via `localhost:1080
 Troubleshooting
 ---------------
 
-For general help and support join our [Slack Workspace](https://ln.phlak.net/join-slack).
+For general help and support join our [GitHub Discussions](https://github.com/PHLAK/docker-soxy/discussions) or reach out on [Twitter](https://twitter.com/PHLAK).
 
 Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/docker-soxy/issues).
 
